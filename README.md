@@ -19,7 +19,8 @@ Online educational web and mobile plataform developed with ReactJs, React Native
 
 </div>
 
-<br>
+------------
+
 <br>
 
 <h2>:iphone: MOBILE </h2>
@@ -29,3 +30,62 @@ Online educational web and mobile plataform developed with ReactJs, React Native
 <img src="https://user-images.githubusercontent.com/45312912/89743189-fd5dcb00-da76-11ea-9c96-2dbe36c147f6.png" width=100% height=100%/>
 
 </div>
+
+<br>
+
+------------
+## Layouts
+<div align="justify">
+
+💻 Web layout <a href="https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web">Figma</a>.
+
+📱&nbsp; Mobile layout <a href="https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile">Figma</a>.
+</div>
+
+------------
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+- [NodeJs](https://nodejs.org/en/ "NodeJs")
+- [Express](https://expressjs.com/ "Express")
+- [Expo-Cli](https://expo.io/tools#cli "Expo-Cli")
+- [React](https://reactjs.org/ "React")
+- [React Native](https://reactnative.dev/ "React Native")
+- [Typescript](https://www.typescriptlang.org/ "Typescript")
+
+------------
+
+
+## Dependências
+
+- [Express](https://expressjs.com/ "Express")
+- [KnexJS](http://knexjs.org/ "KnexJS")
+- [SQLite3](https://www.npmjs.com/package/sqlite3 "SQLite3")
+- [Axios](https://www.npmjs.com/package/axios "Axios")
+- [Expo Google Fonts](https://github.com/expo/google-fonts " [Expo Google Fonts]")
+
+
+------------
+## 🤔 Como ajudar e rodar os apps?
+```
+- Faça um fork desse repositório;
+
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+```
+------------
+
+## Agradecimentos
+  - <a target="_blank" href="https://github.com/diego3g">Diego Fernandes</a>
+  
+<br>
+  
+<footer align="center">
+ <strong align="center">Feito com ♥ por Ygor Verde :wave:</strong>
+</footer>
