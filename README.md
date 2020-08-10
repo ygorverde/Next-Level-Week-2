@@ -9,12 +9,9 @@
 
 <h2>:computer: WEB</h2>
 
-<div align='center'>
-
-<img src="https://user-images.githubusercontent.com/45312912/89742139-a9021d80-da6d-11ea-8e7d-8e42d1a16fc3.png" height=80% width=100% />
-<img align='left' src="https://user-images.githubusercontent.com/45312912/89742467-94735480-da70-11ea-8b30-fee1d0470d1f.jpg" width=100% height=100%/>
-
-</div>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45312912/89742139-a9021d80-da6d-11ea-8e7d-8e42d1a16fc3.png" alt="PRs welcome!" />
+</p>
 
 ------------
 
