@@ -57,7 +57,7 @@ O Proffy é uma plataforma de estudos online que ajuda pessoas a encontrarem pro
 
 
 ------------
-## 🤔 Como ajudar e rodar os apps?
+## 🤔 Como ajudar
 ```
 - Faça um fork desse repositório;
 
