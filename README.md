@@ -23,8 +23,6 @@
 
 </div>
 
-<br>
-
 ------------
 ## 🔖 Layouts
 Nos links abaixo você encontra o layout do projeto web e também do mobile. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
