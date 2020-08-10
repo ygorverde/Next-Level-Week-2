@@ -1,6 +1,5 @@
 # Next-Level-Week-#02
 
-<br><br> 
 <p align="center">
     <img alt="Proffy" title="Proffy" src="https://user-images.githubusercontent.com/45312912/89740443-1490be80-da5f-11ea-8ac4-63f06cf3c9f3.png" width="220px" />
 </p>
@@ -33,12 +32,11 @@
 <br>
 
 ------------
-## Layouts
+## 🔖 Layouts
 <div align="justify">
+Web layout <a href="https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web">Figma</a>.
 
-💻 Web layout <a href="https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web">Figma</a>.
-
-📱&nbsp; Mobile layout <a href="https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile">Figma</a>.
+Mobile layout <a href="https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile">Figma</a>.
 </div>
 
 ------------
