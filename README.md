@@ -1,9 +1,8 @@
 # Next-Level-Week-#02
 
-<p align="center">
-    <img alt="Proffy" title="Proffy" src="https://user-images.githubusercontent.com/45312912/89740443-1490be80-da5f-11ea-8ac4-63f06cf3c9f3.png" width="220px" />
-</p>
-
+<h1 align="center">
+    <img alt="Proffy" title="Proffy" src="https://user-images.githubusercontent.com/45312912/89740443-1490be80-da5f-11ea-8ac4-63f06cf3c9f3.png" />
+</h1>
 
 ![GitHub top language](https://img.shields.io/github/languages/count/ygorverde/next-level-week-2) 
 ![GitHub top language](https://img.shields.io/github/languages/top/ygorverde/next-level-week-2) ![GitHub last commit](https://img.shields.io/github/last-commit/ygorverde/next-level-week-2) ![GitHub repo size](https://img.shields.io/github/repo-size/ygorverde/next-level-week-2)
