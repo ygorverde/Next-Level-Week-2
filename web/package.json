@@ -40,5 +40,10 @@
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.1.5"
-  }
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
