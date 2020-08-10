@@ -1,6 +1,5 @@
 # Next-Level-Week-#02
 
-Online educational web and mobile plataform developed with ReactJs, React Native, NodeJs, Express, Typescript.
 <br><br> 
 <p align="center">
     <img alt="Proffy" title="Proffy" src="https://user-images.githubusercontent.com/45312912/89740443-1490be80-da5f-11ea-8ac4-63f06cf3c9f3.png" width="220px" />
@@ -56,6 +55,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ------------
 
+## 💻 Sobre o projeto 
+O Proffy é uma plataforma de estudos online que ajuda pessoas a encontrarem professores online.
 
 ## Dependências
 
@@ -87,5 +88,5 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 <br>
   
 <footer align="center">
- <strong align="center">Feito com ♥ por Ygor Verde :wave:</strong>
+ <strong align="center">Feito com ♥ por Ygor Verde</strong>
 </footer>
