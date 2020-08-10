@@ -33,11 +33,9 @@
 
 ------------
 ## 🔖 Layouts
-<div align="justify">
-Web layout <a href="https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web">Figma</a>.
 
-Mobile layout <a href="https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile">Figma</a>.
-</div>
+- [Layout Web](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web)
+- [Layout Mobile](https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile)
 
 ------------
 
