@@ -8,7 +8,7 @@ import backIcon from '../../assets/images/icons/back.svg';
 import './styles.css'
 
 interface PageHeaderProps {
-    title: string;
+    title?: string;
     description?: string;
 }
 

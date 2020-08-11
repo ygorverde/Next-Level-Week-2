@@ -1,0 +1,26 @@
+.top-bar {
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: var(--color-button-text);
+    /* padding-left: 15rem; */
+    /* padding: 1.6rem 0; */
+}
+
+.top-bar a.login {
+    margin-left: 2.4rem;
+    background-color: var(--color-secundary-dark);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    color: var(--color-button-text);
+}
+
+#userphoto {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+

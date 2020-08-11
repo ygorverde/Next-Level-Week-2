@@ -10,6 +10,8 @@ import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
 
 import api from '../../services/api';
 
+import Menu from '../../components/Menu';
+
 import './styles.css';
 
 function Landing() {
@@ -24,8 +26,13 @@ function Landing() {
     }, []);
 
     return (
+        <div id="main">
         <div id="page-landing">
+            <div id="bemvindo">
+                <Menu title="a"/>
+            </div>
             <div id="page-landing-content" className="container">
+
                 <div className="logo-container">
                     <img src={logoImg} alt="logoProffy" />
                     <h2>Sua plataforma de cursos online.</h2>
@@ -53,6 +60,7 @@ function Landing() {
                     Total de {totalConnections} conexões já realizadas. <img src={purpleHeartIcon} alt="Coração roxo"/>
                 </span>
             </div>
+        </div>
         </div>
     )
 }
