@@ -3,6 +3,21 @@
     height: 100vh;
 }
 
+.ajuda {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.4rem;
+}
+
+.remember input {
+margin-right: 1rem;
+}
+
+.forget a{
+    text-decoration: none;
+}
+
 #page-login-form .page-header .header-content {
     margin-bottom: 6.4rem;   
 }
@@ -11,16 +26,7 @@
     background-color: var(--color-background);
 }
 
-#page-login-form .input-block {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0;
-}
-
 #page-login-form .input-block input{
-    width: 60%;
     margin-top: 0;
     border-radius: 5px 5px 0px 0px;
     text-decoration: none;
@@ -96,7 +102,7 @@ color: var(--color-primary-dark);
     margin-right: 2rem;
 }
 
-#page-login-form main footer button {
+#btnlogin {
     width: 100%;
     height: 5.6rem;
     background: var(--color-secundary);
@@ -111,10 +117,11 @@ color: var(--color-primary-dark);
     text-decoration: none;
     transition: background-color 0.2s;
     margin-top: 3.2rem;
+    transition: 1s;
 }
 
-#page-login-form main footer button:hover {
-    background: var(--color-secundary-dark);
+#btnlogin:hover {
+    background: var(--color-primary-dark);
 }
 
 #page-login-form .input-block + .input-block {
@@ -131,23 +138,23 @@ color: var(--color-primary-dark);
     }
 
     #page-login-form main fieldset {
-        padding: 0 6.4rem;
+        padding: 0 20.4rem;
     }
 
     #page-login-form main footer {
         padding: 4.0rem 6.4rem;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     #page-login-form main footer p {
         justify-content: space-between;
     }
 
-    #page-login-form main footer button {
-        width: 20rem;
-        margin-top: 0;
+    #btnlogin {
+        width: 100%;
+        margin-top: 5rem;
     }
 
 }

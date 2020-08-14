@@ -86,18 +86,32 @@ function LoginForm() {
                 value={avatar}
                 onChange={(e) => { setAvatar(e.target.value) }}/>
 
+                <div className="ajuda">
+                <label className="remember">
+                <input type="checkbox" />
+                Lembrar-me
+                <span className="checkmark"></span>
+                </label>
+
+                <label className="forget">
+                <a href="/">Esqueci minha senha</a>
+                </label>
+                </div>
+
+                <button type="submit" id="btnlogin">
+                    Fazer Login
+                </button>
+
             </fieldset>
 
             <footer>
                 <p>
                     <img src={warningIcon} alt="Aviso importante"/>
                     Não tem conta? <br />
-                    Preencha todos os dados.
+                    Crie uma conta agora mesmo.
                 </p>
-                <a>Cadastre-se</a>
-                <button type="submit">
-                    Fazer Login
-                </button>
+                <a href="/login">Cadastre-se</a>
+                
             </footer>
         </form>
         </main>
