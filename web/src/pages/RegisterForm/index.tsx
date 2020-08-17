@@ -1,5 +1,5 @@
 import React, { useState, FormEvent } from 'react';
-import { useHistory, Link } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 
 import PageHeader from '../../components/PageHeader';
 import Input from '../../components/Input';
@@ -11,8 +11,9 @@ import api from '../../services/api';
 import warningIcon from '../../assets/images/icons/warning.svg';
 
 import './styles.css';
+import BannerPage from '../Banner';
 
-function LoginForm() {
+function RegisterForm() {
     const history = useHistory();
 
     const [name, setName] = useState('');
@@ -67,13 +68,26 @@ function LoginForm() {
     }
 
     return (
-        <div id="page-login-form" className="container">
-        <PageHeader />
-
+        <div id="page-register-form" className="container">
+        
         <main>
+        <PageHeader title="Cadastro"
+         description="Preencha os dados abaixo para começar."
+        />
             <form onSubmit={handleCreateClass}>
             <fieldset>
-                <legend>Fazer login</legend>
+
+                <Input name="nome"
+                placeholder="Nome" 
+                value={name}
+                onChange={(e) => { setName(e.target.value) }}
+                />
+
+                <Input name="sobrenome"
+                placeholder="Sobrenome" 
+                value={name}
+                onChange={(e) => { setName(e.target.value) }}
+                />
 
                 <Input name="email"
                 placeholder="E-mail" 
@@ -86,37 +100,18 @@ function LoginForm() {
                 value={avatar}
                 onChange={(e) => { setAvatar(e.target.value) }}/>
 
-                <div className="ajuda">
-                <label className="remember">
-                <input type="checkbox" />
-                Lembrar-me
-                <span className="checkmark"></span>
-                </label>
-
-                <label className="forget">
-                <a href="/">Esqueci minha senha</a>
-                </label>
-                </div>
-
-                <button type="submit" id="btnlogin">
-                    Fazer Login
-                </button>
+                
 
             </fieldset>
 
-            <footer>
-                <p>
-                    <img src={warningIcon} alt="Aviso importante"/>
-                    Não tem conta? <br />
-                    Crie uma conta agora mesmo.
-                </p>
-                <Link to="/register">Cadastre-se</Link>
-                
-            </footer>
+            <button type="submit" id="btnregister">
+                    Concluir cadastro
+                </button>
         </form>
         </main>
+                <BannerPage />
         </div>
     )
 }
 
-export default LoginForm;
+export default RegisterForm;
